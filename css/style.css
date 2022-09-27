@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6{
    font-family: 'Noto Sans Mono', monospace;
    font-weight: 700;
    color: #121212;
-   font-size: 44px;
+   font-size: 40px;
    line-height: 1.2;
    text-align: center;
    letter-spacing: 0.08em;
@@ -63,6 +63,14 @@ h1,h2,h3,h4,h5,h6{
 /*-----------------------------------------*/
 .page{
    flex: 1 1 auto;
+}
+.page__main {
+}
+.page__history {
+}
+.page__photos {
+}
+.page__top {
 }
 
 /*-----------------------------------------*/
@@ -108,14 +116,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*------------------------------------*/
-.page {
-}
-.page__main {
-}
-
 .main {
    padding-bottom: 70px;
-   
 }
 
 .main__container {
@@ -164,15 +166,11 @@ h1.main__title{
    padding-left: 73px;
 }
 
-
  
 /*----------------------*/
-.page__history {
+.history {
    padding-top: 50px;
    padding-bottom: 50px;
-}
-
-.history {
 }
 .history__container {
 }
@@ -229,14 +227,13 @@ dt.program__items{
 }
 
 /*------------------------*/
-.page__photos {
+.photos {
    padding-top: 50px;
    padding-bottom: 50px;
 }
-.photos {
-}
 .photos__container {
 }
+
 .photo__title {
 }
 .photos__items {
@@ -246,7 +243,6 @@ dt.program__items{
    justify-items: center;
 }
 .photos__item {
-   
 }
 .item-photos {
 }
@@ -254,11 +250,9 @@ dt.program__items{
 }
 
 /*--------------*/
-.page__top {
+.top {
    padding-top: 50px;
    padding-bottom: 50px;
-}
-.top {
 }
 .top__container {
 }
@@ -276,7 +270,6 @@ dt.program__items{
 }
 
 .top__table thead tr {
- 
    text-align: left;
    border-bottom: 1px solid #dddddd;
 }
